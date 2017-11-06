@@ -7,20 +7,22 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ListView;
+import android.widget.TextView;
 
-import java.util.List;
+public class Fragment_b extends Fragment {
 
-public class Fragment_A extends Fragment{
-
-    ListView list;
+    TextView text;
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        View view =inflater.inflate(R.layout.activity_fragment_a,container,false);
-        list = getActivity().findViewById(R.id.listView);
-        Array
+        View v = inflater.inflate(R.layout.activity_fragment_b,container,false);
+        text = v.findViewById(R.id.textView);
 
-        return  view;
+        return v;
+    }
+
+    public void changeData(int index){
+        String[] description = getResources().getStringArray(R.array.description);
+        text.setText(description[index]);
     }
 }
