@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FragmentFlexible</string>
+    <string-array name="title">
+        <item>Activities</item>
+        <item>Services</item>
+        <item>Content Provider</item>
+        <item>Intents and Intent Filter</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Activities Activities Activities Activities Activities Activities </item>
+        <item>Services Services Services Services Services Services Services Services </item>
+        <item>Content Provider Content Provider Content Provider Content Provider Content Provider Content Provider </item>
+        <item>Intents and Intent Filter Intents and Intent Filter Intents and Intent Filter Intents and Intent Filter Intents and Intent Filter </item>
+    </string-array>
+</resources>

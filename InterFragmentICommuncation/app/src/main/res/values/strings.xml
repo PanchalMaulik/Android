@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">InterFragmentICommuncation</string>
+    <string name="title_activity_fragment_a">Fragment_a</string>
+    <string name="title_activity_fragment_b">Fragment_b</string>
+</resources>
